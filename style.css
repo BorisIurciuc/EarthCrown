@@ -5,3 +5,63 @@
 h1 {
     color: darkblue;
 }
+
+.divBody{
+    /* background-image: url("./images/горыSmall.jpg"); */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.divIndex{
+    padding: 5px;
+    margin: 10px;
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px 5px rgba(33, 44, 53, 0.5);
+    border-radius: 10px;
+    background-color: rgb(227, 223, 223);
+    
+}
+
+.divMain {
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    border: solid 1px black;
+    
+}
+
+.divLeft {
+    border: solid 1px black;
+    width: 20%;
+}
+
+.divCenter{
+    border: solid 1px black;
+    width: 70%;
+}
+
+.divRight {
+    border: solid 1px black;
+    width: 10%;
+}
+
+.imgTree {
+    padding: 5px;
+    margin: 10px;
+    width: 70%;
+    box-shadow: 2px 2px 2px 5px rgba(33, 44, 53, 0.5);
+    border-radius: 10px;
+    opacity: 1;
+}
