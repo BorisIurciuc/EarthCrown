@@ -66,11 +66,19 @@ h2 {
 }
 .divBlackWhiteL img{
     width: 66%;
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.5s ease;
+    }
 }
 .divBlackWhiteR{
     background-color: black;
     width: 50%;
     border-radius: 50px;
+    &:hover{
+        transform: scale(0.9);
+        transition: all 0.5s ease;
+    }
 }
 .divBlackWhiteR img{
     width: 66%;
@@ -118,7 +126,15 @@ h2 {
     width: 50%;
     box-shadow: 1px 1px 20px 20px rgba(213, 215, 218, 0.5);
     border-radius: 15px;
+
 }
+
+.imgTree:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+
+}
+
 .divBack{
     background-color: black;
 }
@@ -181,6 +197,10 @@ a {
 .imgNav{
     width: 30%;
     margin: 1px 50px 20px 50px;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 0.5s ease;
+    }
 }
 
 .divCenter{
@@ -219,6 +239,10 @@ span{
     width: 550px;
     box-shadow: 2px 2px 2px 5px rgba(33, 44, 53, 0.5);
     border-radius: 10px;
+    &:hover{
+        transform: scale(1.3);
+        transition: all 0.5s ease;
+    }
 }
 
 footer {
