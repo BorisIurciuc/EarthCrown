@@ -66,19 +66,11 @@ h2 {
 }
 .divBlackWhiteL img{
     width: 66%;
-    &:hover{
-        transform: scale(1.2);
-        transition: all 0.5s ease;
-    }
 }
 .divBlackWhiteR{
     background-color: black;
     width: 50%;
     border-radius: 50px;
-    &:hover{
-        transform: scale(0.9);
-        transition: all 0.5s ease;
-    }
 }
 .divBlackWhiteR img{
     width: 66%;
@@ -129,11 +121,11 @@ h2 {
 
 }
 
-.imgTree:hover{
+/* .imgTree:hover{
     transform: scale(1.1);
     transition: all 0.5s ease;
 
-}
+} */
 
 .divBack{
     background-color: black;
